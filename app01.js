@@ -6,7 +6,11 @@ let nome = "Vitor"
 let idade = 28
 
 // Console e Debug
-
+console.log(nome)
+console.log(idade)
+nome = "Eloisa"
+idade ="22"
+console.log (nome,idade)
 // Operadores
 //     Operador Atribuição
 //     Operadores aritméticos
