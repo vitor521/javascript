@@ -42,5 +42,20 @@ console.log (nome,idade)
 
 
 // Spread e REST  ************
+
+// Tipos de dados
+// text == string
+let cidade = "americana"
+
+//numérico == number
+let salario = 1500.35
+
+//booleano == boolean
+let fumante = false
+
+console.log(typeof cidade)
+console.log(typeof salario)
+console.log(typeof fumante)
+
  
  
