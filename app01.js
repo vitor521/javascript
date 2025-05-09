@@ -67,17 +67,17 @@ console.log("Preço com desconto: " + precoDesconto.toFixed(2))
 
 // Estrutura
 //     Estrutura de controle/decisão 
-if(10>100){
+if (10 > 100) {
     console.log("10 é maior que 5")
 }
-else{
+else {
     console.log("10 é menor que 100")
 }
 
 let idadeDoCandidato = 20
-if(idadeDoCandidato >=18){
+if (idadeDoCandidato >= 18) {
     console.log("pode dirigir")
-}    else{
+} else {
     console.log("volte mais tarde")
 }
 
@@ -86,13 +86,30 @@ if(idadeDoCandidato >=18){
 
 let salarioFuncionario = 3000
 const salarioBase = 5000
-if(salarioFuncionario>5000){
+if (salarioFuncionario > 5000) {
     console.log("salário OK")
-}   else{ 
-    console.log ("Precisa de aumento + (5000")
+} else {
+    console.log("Precisa de um aumento de " + (salarioBase - salarioFuncionario) + " reais")
 }
 //     Laços de repetição
+// quero mostrar 10x a mensagem "Senac Americana"
+let controle = 0
+while (controle <= 10) {
+    console.log("Senac Americana")
+    controle = controle + 1
+}
 
+controle = 50
+while (controle <=10){
+    console.log(controle)
+    controle = controle + 1
+}
+
+controle = 2
+while (controle <=100){
+    console.log(controle)
+    controle = controle + 2
+}
 // Arrays
 
 // Funções básicas
