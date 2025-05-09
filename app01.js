@@ -51,7 +51,19 @@ console.log(!10 > 2) // não - inverte o resultado, se for verdadeiro muda para 
 console.log(!false)
 console.log(10 > 2 && 35 < 100 && n1 > n2 && 100 < 90) // E - todas as verificações precisam ser verdadeiras para o resultado ser verdadeiro
 
-console.log(10<2 || 100==150 || 57==57) // OU - apenas uma verificação precisa ser verdadeira para o resultado ser verdadeiro, o resultado só será falso quando TODAS as verificações forem falsas
+console.log(10 < 2 || 100 == 150 || 57 == 57) // OU - apenas uma verificação precisa ser verdadeira para o resultado ser verdadeiro, o resultado só será falso quando TODAS as verificações forem falsas
+
+// DESAFIO
+let preco = 100
+let precoAcrescimo = 0
+let precoDesconto = 0
+// faça um código que acrescente 17% ao preço e imprima
+// faça um código que desconte 7% do preço e imprima
+precoAcrescimo = preco + preco * 0.17
+console.log("Preço com acréscimo: " + precoAcrescimo.toFixed(2))
+precoDesconto = preco - preco * 0.07
+console.log("Preço com desconto: " + precoDesconto.toFixed(2))
+
 
 // Estrutura
 //     Estrutura de controle/decisão
