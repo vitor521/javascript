@@ -100,33 +100,61 @@ while (controle <= 10) {
 }
 
 controle = 8
-while (controle <=10){
+while (controle <= 10) {
     console.log(controle)
     controle = controle + 1
 }
 
 controle = 1 // definição da variável de controle
-while (controle <=100){ // condição
+while (controle <= 100) { // condição
     console.log(controle)
     controle = controle + 2 // incremento
 }
 
 
 controle = 0 // definição da variável de controle
-while (controle <=100){ // condição
+while (controle <= 100) { // condição
     console.log(controle)
     controle = controle + 2 // incremento
 }
 
 // mostrar 10x "Senac Americana"
-for(let i=1; i<=10; i=i+1){
+for (let i = 1; i <= 10; i = i + 1) {
     console.log("Senac Americana")
 }
 
-for(let i=1; i<=50; i=i+1){
+for (let i = 1; i <= 50; i = i + 1) {
     console.log(i)
 }
-// Arrays
+
+
+// Arrays --> vetor
+let alunos = ["João", "Paulo", "Renata", "Cris", "X"]
+console.log(alunos)
+console.log(alunos[4])
+
+alunos[4] = "kleber"
+console.log(alunos)
+
+alunos.push("Karem")
+console.log(alunos)
+
+console.log(alunos[5])
+
+let frutas = []
+console.log(frutas)
+frutas.push("🍓")
+frutas.push("🍊")
+frutas.push("🥥")
+frutas.push("🍋‍🟩")
+frutas.push("🍉")
+frutas.push("🍇")
+frutas.push("🍎")
+frutas.push("🍌")
+frutas.push("🍍")
+frutas.push("🍈")
+console.log(frutas)
+console.log("🍌")
 
 // Funções básicas
 // Escopo
